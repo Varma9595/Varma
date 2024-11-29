@@ -1,0 +1,90 @@
+body {
+	background-color: lightblue;
+}
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: lightblue;
+}
+.main-left {
+	padding: 10px;
+}
+.main-right {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+.eliment {
+	padding: 10px;
+    font-weight: bold;
+}
+.btn {
+	margin: 2px;
+	background-color: lightpink;
+	border-radius: 10px;
+	width: 85px;
+}
+.about-main {
+	display: flex;
+	height: 50vh;
+	border: 2px solid green;
+	
+}
+
+.abt-left {
+	width: 50vw;
+	background-color: lightpink;
+	align-content: center;
+	text-align: center;
+}
+.abt-right {
+	width: 50vw;
+	align-content: center;
+	text-align: center;
+	background-color: darkorange;
+}
+.abt-p {
+	font-family: "trebuchet ms", hevetica, sans-serif;
+}
+
+.varma-img {
+	height: 300px;
+}
+.Services {
+	text-align: center;
+	background-color: lightblue;
+}
+.srv-h2 {
+	font-style: italic;
+	font-size: 30px;
+	
+	letter-spacing: 3px;
+}
+.sub-srv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.srv-head {
+	border: 2px orange solid;
+	margin: 5px;
+	width: 400px;
+}
+.srv-h3 {
+	font-style: sans-serif;
+	font-size: 22px;
+}
+.srv-p {
+	font-family: "trebuchet ms", hevetica, sans-serif;
+}
+.contact-details {
+	text-align: center;
+}
+.social-icons {
+	text-align: center;
+}
+.icon-img {
+	height: 40px;
+	padding: 15px;
+}
